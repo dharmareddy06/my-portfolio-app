@@ -1,0 +1,64 @@
+/* ===== EDUCATION SECTION STYLES ===== */
+.education-header {
+    margin-bottom: 48px;
+}
+
+.education-list {
+    margin: 48px auto 0;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.education-icon {
+    margin-top: 4px;
+    margin-bottom: 0;
+    width: 48px;
+    height: 48px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+}
+
+.education-school {
+    text-align: left;
+    margin-bottom: 2px;
+    color: var(--text-secondary);
+}
+
+.education-detail {
+    text-align: left;
+    color: var(--text-muted);
+}
+
+.project-list-title {
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+}
+
+.project-list-desc {
+    margin-top: 8px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.project-list-bottom {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Modal specific tweaks */
+.modal-header .education-school {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.modal-header .education-detail {
+    font-size: 1.1rem;
+}
