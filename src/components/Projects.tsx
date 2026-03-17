@@ -33,6 +33,32 @@ const projects = [
     {
         id: 'p3',
         number: '03',
+        title: 'RISK',
+        subtitle: 'Credit Risk Scoring System',
+        description: 'An Explainable AI-based credit risk scoring system that predicts loan default probability and provides transparent insights into lending decisions.',
+        tech: ['Python', 'Scikit-learn', 'XGBoost', 'SHAP (Explainable AI)', 'Streamlit', 'FastAPI', 'SQL', 'Docker', 'AWS/GCP'],
+        github: 'https://github.com/dharmareddy06/credit-risk-scoring-system',
+        details: {
+            challenge: 'Building a high-accuracy credit risk prediction model while maintaining interpretability and regulatory transparency using explainable AI techniques.',
+            impact: 'Helps financial institutions reduce loan default risk, improve lending decisions, and provide transparent, explainable credit evaluations.',
+        }
+    },
+    {
+        id: 'p4',
+        number: '04',
+        title: 'FINANCIAL',
+        subtitle: 'Financial Dashboard',
+        description: 'A full-stack financial analytics dashboard that helps users track income, expenses, transactions, and financial goals with interactive visualizations.',
+        tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Recharts', 'Framer Motion', 'Node.js', 'MongoDB (Mongoose)', 'JWT (JOSE)', 'BcryptJS', 'jsPDF', 'html2canvas'],
+        github: 'https://github.com/dharmareddy06/financial-dashboard.git',
+        details: {
+            challenge: 'Designing a scalable full-stack architecture that securely manages financial data while providing real-time analytics and interactive visualizations.',
+            impact: 'Enables users to gain better financial insights, track spending patterns, and manage savings goals through an intuitive data-driven dashboard.',
+        }
+    },
+    {
+        id: 'p5',
+        number: '05',
         title: 'TRAFFIC',
         subtitle: 'Traffic Sign Classifier',
         description: 'Computer vision recognition system for autonomous driving with 98% accuracy.',
@@ -44,8 +70,8 @@ const projects = [
         }
     },
     {
-        id: 'p4',
-        number: '04',
+        id: 'p6',
+        number: '06',
         title: 'RECIPE',
         subtitle: 'Recipe Finder',
         description: 'Smart discovery app leveraging NLP for semantic ingredient matching and scraping.',
@@ -57,8 +83,8 @@ const projects = [
         }
     },
     {
-        id: 'p5',
-        number: '05',
+        id: 'p7',
+        number: '07',
         title: 'PHOTO',
         subtitle: 'Photo Colorization',
         description: 'Deep learning based application that automatically converts grayscale images into realistic colored images using convolutional neural networks.',
@@ -70,8 +96,8 @@ const projects = [
         }
     },
     {
-        id: 'p6',
-        number: '06',
+        id: 'p8',
+        number: '08',
         title: 'FINANCIAL',
         subtitle: 'Financial Analysis',
         description: 'Python-based financial analysis tool that fetches company financial data from external APIs, computes key metrics, and generates automated pros and cons insights for companies.',
