@@ -31,15 +31,22 @@ const certifications = [
     },
     {
         id: 4,
+        title: "Claude 101",
+        issuer: "Anthropic",
+        date: "2026",
+        url: "https://verify.skilljar.com/c/pz4dn2d44rq6",
+        type: "orange"
+    },
+    {
+        id: 5,
         title: "Overview of Big Data Analytics",
         issuer: "FutureSkills Prime",
         date: "2026",
         url: "https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_29a9161e-feb3-11f0-bdec-005056b48b54",
         type: "orange"
     },
-    // Page 2
     {
-        id: 5,
+        id: 6,
         title: "AI Foundations",
         issuer: "Oracle",
         date: "2025",
