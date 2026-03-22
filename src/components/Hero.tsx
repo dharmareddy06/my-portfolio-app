@@ -3,6 +3,7 @@
 import { useEffect, useRef, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import myPhoto from '../../public/my-photo.jpeg';
 import TypingEffect from './TypingEffect';
 import ParticleCanvas from './ParticleCanvas';
 
@@ -95,7 +96,7 @@ export default function Hero() {
                         </div>
                         <div className="hero-avatar">
                             <Image
-                                src="/my-photo.jpeg"
+                                src={myPhoto}
                                 alt="Dharma Reddy"
                                 className="hero-avatar-img"
                                 width={180}
