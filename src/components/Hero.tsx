@@ -95,7 +95,7 @@ export default function Hero() {
                         </div>
                         <div className="hero-avatar">
                             <Image
-                                src="src/images/my-photo.jpeg"
+                                src="/my-photo.jpeg"
                                 alt="Dharma Reddy"
                                 className="hero-avatar-img"
                                 width={180}
