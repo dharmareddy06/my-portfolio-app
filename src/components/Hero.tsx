@@ -94,9 +94,9 @@ export default function Hero() {
                             <span>AI & ML</span>
                         </div>
                         <div className="hero-avatar">
-                            <Image 
-                                src="/my-photo.jpeg" 
-                                alt="Dharma Reddy" 
+                            <Image
+                                src="src/images/my-photo.jpeg"
+                                alt="Dharma Reddy"
                                 className="hero-avatar-img"
                                 width={180}
                                 height={180}
