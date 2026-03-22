@@ -94,18 +94,13 @@ export default function Hero() {
                             <span>AI & ML</span>
                         </div>
                         <div className="hero-avatar">
-                            {/* <Image
-                                src="public/my-photo.jpeg"
+                            <Image
+                                src="/my-photo.jpeg"
                                 alt="Dharma Reddy"
                                 className="hero-avatar-img"
                                 width={180}
                                 height={180}
                                 priority
-                            /> */}
-                            <img
-                                src="/my-photo.jpeg"
-                                alt="Dharma Reddy"
-                                className="hero-avatar-img"
                             />
                         </div>
                         <div className="hero-float-card">
