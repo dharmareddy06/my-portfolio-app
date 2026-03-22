@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useCallback } from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import TypingEffect from './TypingEffect';
 import ParticleCanvas from './ParticleCanvas';
 
@@ -93,7 +94,14 @@ export default function Hero() {
                             <span>AI & ML</span>
                         </div>
                         <div className="hero-avatar">
-                            <img src="/my-photo.jpeg" alt="Dharma Reddy" className="hero-avatar-img" />
+                            <Image 
+                                src="/my-photo.jpeg" 
+                                alt="Dharma Reddy" 
+                                className="hero-avatar-img"
+                                width={180}
+                                height={180}
+                                priority
+                            />
                         </div>
                         <div className="hero-float-card">
                             <div className="float-icon purple">🧠</div>
