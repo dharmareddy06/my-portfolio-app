@@ -24,7 +24,7 @@ export default function Preloader() {
     }, []);
 
     const dataFragments = [
-        "0x4F2A", "0xBD91", "10110", "IRIS_SCAN", "AUTH_REQ", "SYNCING", "0x7E3C"
+        "AGENTS", "RAG", "TRANSFORMER", "CONTEXT", "HULLUCINATION", "MULTIMODEL", "ALIGNMENT"
     ];
 
     return (
@@ -100,7 +100,7 @@ export default function Preloader() {
                     </div>
 
                     <div className="iris-footer">
-                        <div className="iris-label">NEURAL_LINK_ESTABLISHED</div>
+                        <div className="iris-label">Brain Loading... Please Wait</div>
                         <div className="iris-progress-wrap">
                             <div className="iris-percentage">{percent}%</div>
                             <div className="iris-bar-bg">

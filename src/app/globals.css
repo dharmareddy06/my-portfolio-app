@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 @import './cert-grid.css';
 @import './projects-grid.css';
+@import './experience.css';
 
 /* ===== CSS CUSTOM PROPERTIES ===== */
 :root {
@@ -296,6 +297,17 @@ img {
   overflow: hidden;
   background: var(--gradient-hero);
   padding-top: 100px;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  background: linear-gradient(to bottom, transparent, var(--bg-primary));
+  pointer-events: none;
 }
 
 .hero-canvas {

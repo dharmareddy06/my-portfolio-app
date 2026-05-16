@@ -4,9 +4,17 @@ import { useState, useRef } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 
 const certifications = [
+
     // Page 1
     {
         id: 1,
+        title: "Certified System Administrator",
+        issuer: "ServiceNow",
+        date: "2026",
+        url: "https://www.linkedin.com/feed/update/urn:li:activity:7449795484585721857/",
+    },
+    {
+        id: 2,
         title: "Data Analytics",
         issuer: "Skillshop",
         date: "2026",
@@ -14,7 +22,7 @@ const certifications = [
         type: "blue"
     },
     {
-        id: 2,
+        id: 3,
         title: "ServiceNow Administration Fundamentals",
         issuer: "ServiceNow",
         date: "2026",
@@ -22,7 +30,7 @@ const certifications = [
         type: "maroon"
     },
     {
-        id: 3,
+        id: 4,
         title: "Preparing for Your Associate Cloud Engineer",
         issuer: "Google Cloud",
         date: "2026",
@@ -30,7 +38,7 @@ const certifications = [
         type: "red"
     },
     {
-        id: 4,
+        id: 5,
         title: "Claude 101",
         issuer: "Anthropic",
         date: "2026",
@@ -38,7 +46,7 @@ const certifications = [
         type: "orange"
     },
     {
-        id: 5,
+        id: 6,
         title: "Overview of Big Data Analytics",
         issuer: "FutureSkills Prime",
         date: "2026",
@@ -46,7 +54,7 @@ const certifications = [
         type: "orange"
     },
     {
-        id: 6,
+        id: 7,
         title: "AI Foundations",
         issuer: "Oracle",
         date: "2025",
