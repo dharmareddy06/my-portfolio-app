@@ -32,10 +32,6 @@ export default function Hero() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8, delay: 0.3 }}
                 >
-                    <div className="hero-badge">
-                        <span className="hero-badge-dot" />
-                        Open to Opportunities
-                    </div>
 
                     <h1 className="hero-name">
                         Hi, I&apos;m{' '}
@@ -49,7 +45,6 @@ export default function Hero() {
                                 'Machine Learning Engineer',
                                 'Deep Learning Enthusiast',
                                 'Data Scientist',
-                                'NLP & Computer Vision Explorer',
                             ]}
                         />
                     </div>
@@ -91,7 +86,6 @@ export default function Hero() {
                     <div className="hero-avatar-wrapper">
                         <div className="hero-avatar-ring" />
                         <div className="hero-float-card">
-                            <div className="float-icon cyan">🤖</div>
                             <span>AI & ML</span>
                         </div>
                         <div className="hero-avatar">
@@ -105,11 +99,9 @@ export default function Hero() {
                             />
                         </div>
                         <div className="hero-float-card">
-                            <div className="float-icon purple">🧠</div>
                             <span>Full Stack Developer</span>
                         </div>
                         <div className="hero-float-card">
-                            <div className="float-icon green">📊</div>
                             <span>Data Science</span>
                         </div>
                     </div>

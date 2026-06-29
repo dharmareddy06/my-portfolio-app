@@ -6,11 +6,11 @@ import { motion, useInView } from 'framer-motion';
 const experiences = [
     {
         id: 1,
-        role: "GenAI Academy APACEdition",
-        company: "Google Cloud & Hack2Skill",
-        date: "April 2026 - Present",
-        description: "Developed an AI agent using Google Cloud ADK during the Gen AI Academy APAC Edition by Hack2Skill and Google Cloud, focusing on real-world problem solving and autonomous AI workflows. Gained hands-on experience in agent orchestration, prompt engineering, and deploying scalable Generative AI applications on Google Cloud.",
-        tech: ["Google Cloud ADK", "Agent Orchestration", "Prompt Engineering", "Generative AI Applications"]
+        role: "AI & Data Science Intern",
+        company: "XYlofy AI",
+        date: "June 2026 - Present",
+        description: "Developing 4 real world AI Applications using Machine Learning and Data Science techniques. Gaining hands-on experience in building AI-powered applications, data science workflows. Working on projects that involve data preprocessing, model training, and deployment of AI solutions.",
+        tech: ["Python", "Machine Learning", "Data Science"]
     },
     {
         id: 2,

@@ -38,9 +38,9 @@ export default function About() {
                                 <div>&nbsp;&nbsp;&nbsp;&nbsp;self.<span className="property">role</span> = <span className="string">&quot;AI Developer&quot;</span></div>
                                 <div>&nbsp;&nbsp;&nbsp;&nbsp;self.<span className="property">education</span> = <span className="string">&quot;B.Tech in AI&quot;</span></div>
                                 <div>&nbsp;&nbsp;&nbsp;&nbsp;self.<span className="property">interests</span> = <span className="bracket">[</span></div>
+                                <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="string">&quot;Data Science&quot;</span>,</div>
+                                <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="string">&quot;Machine Learning&quot;</span>,</div>
                                 <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="string">&quot;Deep Learning&quot;</span>,</div>
-                                <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="string">&quot;NLP&quot;</span>,</div>
-                                <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="string">&quot;Computer Vision&quot;</span>,</div>
                                 <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="string">&quot;Generative AI&quot;</span>,</div>
                                 <div>&nbsp;&nbsp;&nbsp;&nbsp;<span className="bracket">]</span></div>
                                 <br />
